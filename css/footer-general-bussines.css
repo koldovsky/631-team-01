@@ -4,7 +4,7 @@
     font-family:'Noto Sans JP', sans-serif;
     --main-color: #343436; 
 }
-body footer  div.footer-container{
+footer  div .footer-container{
     display:inline-block;
     position: fixed;  
     bottom: 0;
@@ -15,7 +15,7 @@ body footer  div.footer-container{
     text-align: center; 
     background-color: var(--main-color);
 }
-body footer div .main-footer {
+footer div .main-footer {
     display: flex;
     align-items: center;
     justify-content: center;
