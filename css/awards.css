@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500;900&display=swap');
+
+.awards h2 {
+    font-size:50px ;
+    font-family: 'Roboto' ;
+    text-align: center;
+}
+
+.awards .img {
+    display: block;
+    justify-content:center;
+    }
+
+.awards p {
+    font-size: 18px ;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.card p {
+    font-size: 17px ;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.cases h2 {
+    font-size:50px ;
+    font-family: 'Roboto' ;
+    text-align: center;
+}
+
+.cases p {
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+}
+
+.cases h3 {
+    font-size:36px ;
+    font-family: 'Roboto' ;
+    text-align: left;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.cases {
+    background-image: url(../img/cases.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.cases .cards-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-gap: 50px;
+  padding: 100px;
+}
+
+.cases .card {
+    background-image: url(../img/cases1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.awards {
+    background-image: url(../img/awards.png);
+    background-size: cover;
+    background-position: center;
+}
