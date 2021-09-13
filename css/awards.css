@@ -9,9 +9,9 @@
 }
 
 .awards .img {
-display: block;
-justify-content:center;
-}
+    display: block;
+    justify-content:center;
+    }
 
 .awards p {
     font-size: 18px ;
