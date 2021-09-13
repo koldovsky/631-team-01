@@ -2,7 +2,7 @@
 
 :root {
     font-family:'Noto Sans JP', sans-serif;
-    --main-color: #343436; 
+    --main-color: rgb(69, 69, 71); 
 }
 footer  div .footer-container{
     display:inline-block;
@@ -10,10 +10,10 @@ footer  div .footer-container{
     bottom: 0;
     left: 0;  
     width: 100%;
-    background-color: gray;  
-    color: white;  
+    background-color: var(--main-color);  
+    color: rgb(112, 67, 46);  
     text-align: center; 
-    background-color: var(--main-color);
+    
 }
 footer div .main-footer {
     display: flex;
