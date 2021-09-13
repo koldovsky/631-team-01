@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Urbanist:wght@200;500&display=swap');
+
+:root {
+    font-family:'Noto Sans JP', sans-serif;
+    --main-color: #343436; 
+}
+body footer  div.footer-container{
+    display:inline-block;
+    position: fixed;  
+    bottom: 0;
+    left: 0;  
+    width: 100%;
+    background-color: gray;  
+    color: white;  
+    text-align: center; 
+    background-color: var(--main-color);
+}
+body footer div .main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 296px 0 296px;
+    padding:100px 15px 30px 15px;
+}
+#mdx-main-logo {
+    max-width: 60%;
+}
+@media (max-width: 600px){
+    
+    footer div .main-footer{
+        display: grid;
+        grid-column: span;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+}
+footer div .copyrights-footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+footer div .footer-bottom-left {
+    justify-content: start;
+}
+footer div .main-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1170px;
+    height: 201px;
+}
