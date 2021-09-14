@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    :root {
+        font-family:'Noto Sans JP', sans-serif;
+        --main-color: #ffffff;
+        --accent-color: #8c7568;
+        --text-color: #7d7d7d;
+        --hover-color: #2b2323;
+    }
+    
+    .map {
+        position:static;
+        display: flex;
+        left: 0;
+        top: 0;
+    }
+    section div iframe {
+        width: 1790px;
+        height: 790px;
+    }
+    section div.contacts-form {
+        width: 1170px;
+        height: 430px;
+        position: absolute;
+        left: 40vh;
+        top: 165px;
+        bottom: 165px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    div.contacts-content {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        padding: 25px;
+        width: 320px;
+        height: 375px;
+        background-color: var(--main-color);
+        
+    }
+    
+    div h3.contacts-title {
+        margin: 0;
+        font-family:  'Roboto', sans-serif;
+        font-size:  50px;
+        font-weight: 900;
+        opacity: 85%;
+    }
+    div h3 .contacts-dot {
+        color: var(--accent-color);
+        font-family:'Roboto', sans-serif;
+        opacity: 100%;
+    }
+    div .contacts-logo {
+        margin-top: 20px;
+    }
+    div .head-office-title {
+        margin-top: 25px;
+        margin-bottom: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight:500;
+        font-size: 30px;
+    }
+    div .location {
+        color: var(--text-color);
+        font-family: 'Roboto', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    div .office-tel {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    div .office-tel a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    div .office-email {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+    }
+    div .office-email a {
+        text-decoration: none;
+        color: var(--text-color);
+        margin-bottom: 10px; 
+    }
+    div .button-content {
+        margin-top: 30px;
+        height: 49px;
+        align-items: center;
+    }
+    div .button-content a {
+        text-decoration: none;
+        color: var(--main-color);
+        padding: 15px 26px;
+        background-position: center;
+        background-color: var(--accent-color);
+    }
+    div .button-content a:hover {
+        background-color: var(--hover-color);
+        transition-duration: 1s;
+    }
