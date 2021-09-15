@@ -1,0 +1,103 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-color: #4a4a4d;
+}
+
+p, h2, h3, h4{
+    color: var(--header-color);
+}
+
+.general_background {
+    background-image: url(../img/background_how_we_work.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.how_we_work {
+    background-color: #ffffff;
+    max-width: 50%;
+}
+
+h2, h3, h4, .time, .a_events_blocks, .a_duties {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.a_events_blocks, .a_duties {
+    font-size: 15px;
+}
+
+.svg_for_how_we_work {
+    width: 26px;
+}
+
+.svg_for_duty {
+    width: 50px;
+}
+
+.img_for_events {
+    width: 488px;
+}
+
+.event {
+    padding: 0px 15px 0px 15px;
+    margin-top: 30px;
+}
+
+div .events_blocks > article img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .events_blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .events_blocks {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .events_blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.careers_header {
+    text-align: center;
+}
