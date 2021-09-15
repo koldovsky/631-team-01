@@ -101,6 +101,7 @@
         font-size:50px ;
         font-family: 'Roboto' ;
         text-align: center;
+        color: rgb(255, 255, 255);
     }
     
     .cases p {
@@ -108,12 +109,14 @@
         font-family: 'Open Sans', sans-serif;
         text-align:left;
         padding: 10px;
+        color: rgb(255, 255, 255);
     }
     
     .cases h3 {
         font-size: 36px;
         font-family: 'Roboto' ;
         text-align: left;
+        color: rgb(255, 255, 255);
         padding: 20px;
     }
     
@@ -131,7 +134,6 @@
         background-size: cover;
         background-position: center;
         padding: 20px 10px 10px 20px;
-    
     }
     
    
@@ -168,10 +170,12 @@
         display: block;
         padding: 30px 100px 100px 30px;
     }
+
     .clients h2 {
         font-size:50px ;
         font-family: 'Roboto' ;
         text-align: center;
+        color: rgb(255, 255, 255);
     }
     .clients svg {
         display: block;
@@ -186,6 +190,7 @@
         background-position: center;
         font-size: 20px;
         font-family: 'Roboto' ;
+        color: rgb(255, 255, 255);
         text-align: center;
         padding: 25px 50px 25px 50px;
     }
@@ -200,6 +205,7 @@
         font-size: 18px ;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+        color: rgb(255, 255, 255);
     }
     
     .clients p {
@@ -259,3 +265,4 @@
                 cursor: pointer;
               }
             }
+            
