@@ -1,0 +1,43 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.why_choose_us {
+    display: block;
+    background-image: url(../img/why_choose_us-background.png);
+    height: 860px;
+}
+
+img.diamond-icon, img.question_answer-icon, img.target-icon {
+    height: 100px;
+    width: 100px;
+}
+
+div.w_c_u_header {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.w_c_u_header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+.w_c_u_header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18.5px;
+    margin-top: 20px;
+}
+
+.w_c_u_cards-container {
+    display: flex;
+}
+
+
+
