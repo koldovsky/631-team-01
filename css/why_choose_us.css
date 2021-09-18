@@ -37,7 +37,50 @@ div.w_c_u_header {
 
 .w_c_u_cards-container {
     display: flex;
+    justify-content: center;
 }
+
+div.experience, div.support, div.technologies {
+    width: 370px;
+    height: 440px;
+    background-color: #ffffff;
+}
+
+div.experience {
+    display: block;
+}
+
+img.diamond-icon, img.question_answer-icon, img.target-icon {
+    margin: 30px auto 20px 35px;
+
+}
+
+.experience h3, .support h3, .technologies h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0 auto 20px 35px;
+}
+
+.experience p, .support p, .technologies p {
+    margin: 0 45px 0 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px; 
+}
+
+.experience ul, .support ul, .technologies ul {
+    margin: 2px auto auto 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+div.support {
+    display: block;
+    margin: 0 30px 0 30px;
+}
+
+
 
 
 
