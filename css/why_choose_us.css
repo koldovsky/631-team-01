@@ -82,5 +82,76 @@ div.support {
 
 
 
+.services {
+    display: block;
+    background-image: url(../img/services-background.png);
+    height: 1185px;
+}
+
+div.services-header {
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 45px;
+}
+
+div.services-header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+div.services-header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+div.card-top {
+    background-image: url(../img/services_card_top-background.jpg);
+    display: flex;
+    width: 1170px;
+    height: 320px;
+    margin: 0 auto 30px 175px;
+    
+}
+
+div.card-bottom {
+    background-image: url(../img/services_card_bottom-background.jpg);
+    display: flex;
+    width: 1170px;
+    height: 320px;
+    margin-left: 175px;
+}
+
+img.services_top-image, img.services_bottom-image {
+    width: 585px;
+    height: 320px;
+} 
+
+div.card-top h3, div.card-bottom h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 45px auto 20px 80px
+}
+
+div.card-top p, div.card-bottom p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 27.68px;
+    margin: 0 90px auto 80px;
+}
+
+/* .services form {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border: black solid;
+} */
+
+
+
+
+
+
 
 
