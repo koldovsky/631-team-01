@@ -7,7 +7,7 @@
 section.question-answer-section {
     display: flex;
     padding: 90px 0px 100px 0px;
-    background-image: url(/img/FAQ-background.png);
+    background-image: url(../img/faq-background.png);
     background-size:cover;
     background-repeat: no-repeat;
 }
