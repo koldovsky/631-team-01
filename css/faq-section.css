@@ -1,109 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@900&display=swap');
+@import url(../fonts/Roboto-Bold.ttf);
 
-:root {
-    --accent-color: #8c7568;
-}
-section.question-answer-section {
-    display: flex;
-    padding: 90px 0px 100px 0px;
-    background-image: url(../img/faq-background.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-.question-answer-section .faq {
-    width: 100%;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 296px 0px 296px;
-} 
-.question-answer-section .question-answer-header {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-direction: column;
-    margin: 10px 0px 0px 0px;
-    margin-right: 0;
-    padding: 15px;
-    width: 1170px;
-    height: 170px;
-}
-.question-answer-section .question-answer-header .faq-title {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-}
-.question-answer-header .faq-title #faq-dot {
-    color: var(--accent-color);
-    margin-left: -15px
-}
-div .question-answer-logo {
-    width: 1170px;
-    height: 50px;
-    font-weight: 700;
-}
-div .question-answer-logo {
-    display: flex;
-    justify-content: center;
-    padding: 0px 25px;
-    margin-bottom: 0;
-}
-div .question-answer-logo svg {
+    :root {
+        --accent-color: #8c7568;
+    }
+
+    .faq-content {
+        max-height: 100vh;
+    }
+
+    div.banner-logo {
+        max-height: 100vh;
+        width: 100%;
+        padding: 65px 0px;
+        margin-bottom: 30px;
+        /*display: flex;*/
+        justify-content: center;
+        align-items: center;
+        background: url(../img/faq-background.png);
+        background-size:cover;
+    }
+    /* Header styling* =====> */
+
+    .faq-header {
+       display: flex ;
+       justify-content:space-between ;
+       align-items: center;
+       flex-direction: column;
+       margin-bottom: 15px;
+    }
+
+    .faq-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    #faq-dot {
+        color: var(--accent-color);
+    }
+
+    .faq-logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq-about {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    /* Main content styling ======> */
+    .container {
+        max-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smes-title {
+        margin-left: 60px;
+    }
+
+    .corps-title {
+        margin-left: 60px;
+    }
+
+    .accordion-item {
+        text-align: left;
+        margin-left:40px;
+    }
+
+    /*  Responsive styling*/
+
+    @media (max-width:300px) {
+        .faq-header .container {
+            margin-top: 6vh;
+            left: 0px;
+            width: 100%;
+            display: grid;
+            grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            
+        }
+    }
+
+    @media (max-width:750px) {
+        .container {
+        
+        left: 0px;
+        width: 100%;
+        display: grid;
+        grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        
+        }
+    }
     
-    max-width: 130px;
-    max-height: 50px;
-}
-div .question-answer-about {
-    height: 70px;
-    font-size:18px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 0px;
-}
-div .faq-content {
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 1200px;
-    height: 580px;
-}
-div .smes-title {
+    @media (max-width:550px) {
+        .faq-title {
+            font-size: 30px;
+        }
+    }
    
-    font-family: 'Open sans', sans-serif;
-    font-size: 1.5em;
-    font-weight:700;
-}
-div .smes-content {
-    display: inline; 
-    margin-top: 15px;
-    padding: 0px 15px 0px 15px;
-}
-div .left-side-content {
-    margin-top: 20px;
-    font-family: 'Open sans', sans-serif;
-    font-size: 0.83em;
-    opacity: 90%;
-}
-.useful-smes, .offers-smes, .market-smes, .checking-smes, .satisfaction-smes {
-    font-size: 1.3em;
-    font-weight: 600;
-}
-div .large-corporations-title {
-    font-family: 'Open sans', sans-serif;
-    font-size: 1.5em;
-    font-weight:700;
-}
-div .large-corporations-content {
-    display: inline;
-    margin-top: 10px;
-    padding: 0px 15px 0px 15px;
-    
-} 
-div .right-side-content {
-    margin-top: 20px;
-    font-family: 'Open sans', sans-serif;
-    font-size: 0.83em;
-    opacity: 90%;
-}
-.exp-large-corporations, .big-large-corporations, .plan-large-corporations, 
-.exclusive-large-corporations, .support-large-corporations {
-    font-size: 1.3em;
-    font-weight: 600;
-}
