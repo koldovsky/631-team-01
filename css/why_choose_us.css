@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+:root {
+    --black-color: rgb(74, 74, 77);
+    --white-color: rgb(255, 255, 255);
+    --light-color: rgb(125, 125, 125);
+}
+
 .why_choose_us {
     display: block;
     background-image: url(../img/why_choose_us-background.png);
@@ -25,13 +31,15 @@ div.w_c_u_header {
 
 .w_c_u_header h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 39px;
+    font-size: 50px;
+    color: var(--black-color);
     margin-bottom: 20px;
 }
 
 .w_c_u_header p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18.5px;
+    font-size: 20px;
+    color: var(--black-color);
     margin-top: 20px;
 }
 
@@ -58,6 +66,7 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
 .experience h3, .support h3, .technologies h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    color: var(--black-color);
     margin: 0 auto 20px 35px;
 }
 
@@ -65,6 +74,7 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
     margin: 0 45px 0 35px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    color: var(--light-color);
     line-height: 28px; 
 }
 
@@ -72,6 +82,7 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
     margin: 2px auto auto 55px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    color: var(--light-color);
     line-height: 35px;
 }
 
@@ -98,12 +109,14 @@ div.services-header {
 div.services-header h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
+    color: var(--white-color);
     margin-bottom: 15px;
 }
 
 div.services-header p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    color: var(--white-color);
     margin-top: 20px;
 }
 
@@ -132,6 +145,7 @@ img.services_top-image, img.services_bottom-image {
 div.card-top h3, div.card-bottom h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    color: var(--white-color);
     margin: 45px auto 20px 80px
 }
 
@@ -139,14 +153,46 @@ div.card-top p, div.card-bottom p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 27.68px;
+    color: var(--white-color);
     margin: 0 90px auto 80px;
 }
 
-/* .services form {
+.services form {
     text-align: center;
-    padding: 20px 0 20px 0;
-    border: black solid;
-} */
+    margin-top: 40px;    
+}
+
+.services a {
+    display: inline-block;
+    padding: 20px 25px 20px 25px;
+    border: 2px solid #8c7568;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--white-color);
+
+}
+
+
+
+
+.subscribe_now {
+    display: block;
+    background-image: url(../img/subscribe_now-background.png);
+    height: 605px;
+}
+
+div.subscribe_now-container {
+    padding: 100px 475px 100px 475px;
+    height: 405px;
+    width: 570px;
+}
+
+
+
+
+
+
 
 
 
