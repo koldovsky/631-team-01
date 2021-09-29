@@ -123,18 +123,20 @@ div.services-header p {
 div.card-top {
     background-image: url(../img/services_card_top-background.jpg);
     display: flex;
-    width: 1170px;
+    /* width: 1170px; */
     height: 320px;
     margin: 0 auto 30px 175px;
+    max-width: 1005px;
     
 }
 
 div.card-bottom {
     background-image: url(../img/services_card_bottom-background.jpg);
     display: flex;
-    width: 1170px;
+    /* width: 1170px; */
     height: 320px;
     margin-left: 175px;
+    max-width: 1005px;
 }
 
 img.services_top-image, img.services_bottom-image {
