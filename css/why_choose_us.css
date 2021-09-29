@@ -126,7 +126,7 @@ div.card-top {
     /* width: 1170px; */
     height: 320px;
     margin: 0 auto 30px 175px;
-    max-width: 1005px;
+    max-width: 805px;
     
 }
 
@@ -136,7 +136,7 @@ div.card-bottom {
     /* width: 1170px; */
     height: 320px;
     margin-left: 175px;
-    max-width: 1005px;
+    max-width: 805px;
 }
 
 img.services_top-image, img.services_bottom-image {
