@@ -6,25 +6,27 @@
 }
 
 :root {
-    --header-color: #4a4a4d;
+    --header-text-color: #4a4a4d;
+    --svg-steps-color: #f1f3f3;
 }
 
 p, h2, h3, h4{
-    color: var(--header-color);
+    color: var(--header-text-color);
 }
 
 .general_background {
     background-image: url(../img/background_how_we_work.png);
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: 80% 50%;
+    min-height: 100vh;
     max-width: 100%;
     margin: auto;
 }
 
 .how_we_work {
     background-color: #ffffff;
-    max-width: 50%;
+    max-width: 90%;
+    padding: 80px 20px;
 }
 
 h2, h3, h4, .time, .a_events_blocks, .a_duties {
@@ -58,6 +60,8 @@ h4 {
 
 .svg_for_how_we_work {
     width: 26px;
+    display: block;
+    margin: auto;
 }
 
 .svg_for_duty {
@@ -69,8 +73,21 @@ h4 {
 }
 
 .event {
-    padding: 0px 15px 0px 15px;
-    margin-top: 30px;
+    padding: 0;
+    background-color: #343436;
+    display: block;
+    margin: auto;
+}
+
+.p_events {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .event {
+        height: 400px;
+        width: 337px;
+    }
 }
 
 div .events_blocks > article img {
@@ -83,21 +100,98 @@ div .events_blocks > article img {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
-    }
-}
-
-@media (min-width: 768px) {
-    .events_blocks {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 768px) {
-    .events_blocks {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 .careers_header {
     text-align: center;
+}
+
+.empty_block {
+    width: 350px;
+    min-height: 300px;
+    display: none;
+    max-width: 90%;
+}
+
+@media(min-width: 768px) {
+    .empty_block {
+        display: block;
+    }
+}
+
+@media(min-width: 768px) {
+    .general_background {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media(min-width: 768px) {
+    .how_we_work {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.block_with_text, .empty_block {
+    padding: 0px 15px;
+}
+
+.steps_svg {
+    background-color: var(--svg-steps-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.step {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+.no_dots_for_steps {
+    list-style: none;
+}
+
+.snake_how_we_work-careers {
+    padding: 0px 0px;
+}
+
+.careers_center {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 20px;
+    padding: 0px 0px 25px 0px;
+}
+
+.events_data, .events_description {
+    color: #ffffff;
+}
+
+.events_time {
+    color: #969696;
+}
+
+.events {
+    padding: 0px 24px 0px 24px;
+}
+
+.button_our_team {
+    background-color: #8c7568;
+    border-radius: 0%;
+    display: block;
+    margin: auto;
+    width: 117px;
+    height: 50px;
+    margin-top: 40px;
 }
