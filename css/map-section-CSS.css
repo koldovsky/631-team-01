@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+        font-family:'Noto Sans JP', sans-serif;
+        --main--map-color: #ffffff;
+        --accent-map-color: #8c7568;
+        --text-map-color: #7d7d7d;
+        --hover-map-color: #2b2323;
+    }*/
+
+.contacts {
+  position: relative;
+  max-height: 900px;
+  margin-top: 100px;
+}
+.map {
+  /* position: static; */
+  left: 0;
+  top: 0;
+
+}
+section div iframe {
+  width: 100%;
+  min-height: 900px;
+}
+section div.contacts-form {
+  /* width: 1170px;
+  height: 430px;
+  position: absolute;
+  left: 40vh;
+  top: 165px;
+  bottom: 165px;
+  ; */
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+}
+div.contacts-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px;
+  width: 320px;
+  height: 375px;
+  background-color: var(--main--map-color);
+}
+
+div h3.contacts-title {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 85%;
+}
+div h3 .contacts-dot {
+  color: var(--hover-map-color);
+  font-family: "Roboto", sans-serif;
+  opacity: 100%;
+}
+div .contacts-logo {
+  margin-top: 20px;
+}
+div .head-office-title {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+div .location {
+  color: var(--hover-map-color);
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+div .office-tel {
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+div .office-tel a {
+  text-decoration: none;
+  color: var(--hover-map-color);
+}
+div .office-email {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+}
+div .office-email a {
+  text-decoration: none;
+  color: var(--hover-map-color);
+  margin-bottom: 10px;
+}
+div .button-content {
+  margin-top: 30px;
+  height: 49px;
+  align-items: center;
+}
+div .button-content a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 26px;
+  background-position: center;
+  background-color: var(--hover-map-color);
+}
+div .button-content a:hover {
+  background-color: var(--accent-map-color);
+  transition-duration: 1s;
+}
+
+/* @media (min-width: 480px) {
+  .contacs-form {
+    padding: 0 24px;
+    
+  }
+} */
