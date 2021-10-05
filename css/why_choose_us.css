@@ -9,12 +9,19 @@
     --black-color: rgb(74, 74, 77);
     --white-color: rgb(255, 255, 255);
     --light-color: rgb(125, 125, 125);
+    --brown-color: #8c7568;
 }
 
 .why_choose_us {
     display: block;
     background-image: url(../img/why_choose_us-background.png);
-    height: 860px;
+    min-height: 860px;
+}
+
+span.title-dot {
+    color: var(--brown-color);
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 img.diamond-icon, img.question_answer-icon, img.target-icon {
@@ -79,11 +86,17 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
 }
 
 .experience ul, .support ul, .technologies ul {
-    margin: 2px auto auto 55px;
+    /* margin: 2px auto auto 25px; */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--light-color);
     line-height: 35px;
+    list-style-type: none;
+}
+
+span.list-dot {
+    color: var(--brown-color);
+    font-size: 16px;
 }
 
 div.support {
@@ -96,7 +109,7 @@ div.support {
 .services {
     display: block;
     background-image: url(../img/services-background.png);
-    height: 1185px;
+    min-height: 1185px;
 }
 
 div.services-header {
@@ -123,20 +136,17 @@ div.services-header p {
 div.card-top {
     background-image: url(../img/services_card_top-background.jpg);
     display: flex;
-    /* width: 1170px; */
+    max-width: 1170px;
     height: 320px;
     margin: 0 auto 30px 175px;
-    max-width: 805px;
-    
 }
 
 div.card-bottom {
     background-image: url(../img/services_card_bottom-background.jpg);
     display: flex;
-    /* width: 1170px; */
+    max-width: 1170px;
     height: 320px;
-    margin-left: 175px;
-    max-width: 805px;
+    margin-left: 175px;  
 }
 
 img.services_top-image, img.services_bottom-image {
@@ -166,7 +176,7 @@ div.card-top p, div.card-bottom p {
 
 .services a {
     display: inline-block;
-    padding: 20px 25px 20px 25px;
+    padding: 15px 15px 15px 15px;
     border: 2px solid #8c7568;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -175,20 +185,72 @@ div.card-top p, div.card-bottom p {
 
 }
 
-
-
+.services a:hover {
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--brown-color);
+    opacity: 0.9; 
+    transition: 0.4s 0.1s ease;
+}
 
 .subscribe_now {
-    display: block;
     background-image: url(../img/subscribe_now-background.png);
-    height: 605px;
+    min-height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 div.subscribe_now-container {
-    padding: 100px 475px 100px 475px;
-    height: 405px;
-    width: 570px;
+    position: relative;
+    max-width: 570px;
+    text-align: center;
+    background-color: var(--white-color);
 }
+
+div.subscribe_now-container h2 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+div.subscribe_now-container p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 40px 30px 40px;
+}
+
+div.input-group.flex-nowrap {
+    max-width: 500px;
+    min-height: 50px;
+    margin-left: 35px;
+}
+
+input.form-control {
+    background-color: rgba(52, 52, 54, 0.12);
+}
+
+button.submit-button {
+    margin: 25px 35px 35px 35px;
+    min-width: 500px;
+    min-height: 50px;
+    background-color: rgb(52, 52, 54);
+    color: var(--white-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3%;
+    
+}
+
+.submit-button:hover {
+    background-color: var(--brown-color);
+    opacity: 0.9; 
+    transition: 0.4s 0.1s ease;
+}
+
+
 
 
 
