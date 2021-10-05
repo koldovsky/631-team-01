@@ -16,7 +16,7 @@
   <link href="css/header.css" rel="stylesheet">
   <link href="css/your_business_is_our_concern.css" rel="stylesheet">
   <link rel="stylesheet" href="css/map-section-CSS.css">
-  <link href="css/about_mdx_company.css" rel="stylesheet">
+  <!-- <link href="css/about_mdx_company.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,81 +29,54 @@
 
   <!--HEADER-->
   <header>
-    <nav>
-      <div class="logo"><img src="img/logo.png" height="auto" width="187" style="margin-left:70px;" alt="Logo"></div>
-      <div class="openMenu"><i class="fas fa-bars fa-2x"></i></div>
-      <ul class="mainMenu">
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Cases</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Contact us</a></li>
-        <div class="closeMenu"><i class="fa fa-times"></i></div>
-
-        <span class="icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-youtube"></i>
-        </span>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <div>
+        <div class="header-logo"><img src="img/logo.png" alt="Logo"></div>
+        <div class="nav-toggle" id="navToggle">
+          <img id="navClosed" class="navIcon" src="img/menu.svg" alt="hamburger menu">
+          <img id="navOpen" class="navIcon hidden" src="img/close.svg" alt="close hamburger">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about_us">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#cases">Cases</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact_us">Contact us</a></li>
+          <a class="header-icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </a>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!--Your Business Is Our Concern-->
   <main>
     <div class="wrapper">
       <div class="side left">
-        <div class="image background"></div>
-        <div class="caption">
-          <h1>Your Business Is Our Concern</h1>
-          <img width="150" src="img/separator.svg" alt="separator" class="separator">
-          <p>We provide all kinds of services to SMEs and large corporations looking for a reliable partner in their
-            daily business tasks.</p>
-          <button type="button" class="button button1">Send a Request</button>
-        </div>
+            <div class="image black-background"></div>
+            <div class="caption">
+                  <h1>Your Business Is Our Concern</h1>
+                  <img src="img/separator.svg" alt="separator" class="first-separator">                        
+                  <p>We provide all kinds of services to SMEs and large corporations looking for a reliable partner in their daily business tasks.</p>
+                  <button type="button" class="first-button">Send a Request</button> 
+            </div>
       </div>
-
       <div class="side right">
-        <div class="image businessman"></div>
+            <div class="image businessman"></div>
       </div>
     </div>
 
     <!--About MDX Company-->
-    <div class="section">
-      <div class="container1">
-        <div class="content-section">
-          <div class="title">
-            <h2>About MDX Company<span class="point">.</span></h2>
-          </div>
-          <div class="content">
-            <img width="150" src="img/separator.svg" alt="separator" class="separator">
-            <p class="first-paragraph">We provide a full range of services to meet our clients' requirements and help
-              their businesses grow.</p>
-            <p class="second-paragraph">Since 2008, we have been helping businesses achieve better results. We have
-              extensive experience in various fields and a close-knit team, so we are ready to accept any challenge and
-              develop an individual plan for the development of your business from A to Z, and bring it to life.</p>
-          </div>
-          <div class="social">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-          </div>
-          <div class="buttons">
-            <button type="button" class="button button2">Learn more</button>
-            <button type="button" class="button button3">Contact Us</button>
-          </div>
 
-        </div>
-
-        <div class="image-section">
-          <img src="img/work.jpg">
-        </div>
-      </div>
-    </div>
   </main>
 
-  <script src="js/script.js"></script>
+
 
 
 
@@ -167,7 +140,7 @@
   </section>
 
   <!--SERVICES-->
-  <section class="services">
+  <section class="services" id="services">
     <div>
       <div class="services-header">
         <h2>Services.</h2>
@@ -665,7 +638,7 @@
     </div>
   </section>
 
-  <section class="faq-page">
+  <section class="faq-page" id="faq">
     <div class="banner-logo">
       <div class="faq-content">
         <div class="faq-header">
@@ -880,7 +853,7 @@
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
 
-  <section class="contacts">
+  <section class="contacts" id="contact_us">
     <div class="contacts-page">
       <div class="map">
         <iframe
@@ -1058,6 +1031,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/header.js"></script>
   <script src="js/how_we_work-careers.js"></script>
 </body>
 
