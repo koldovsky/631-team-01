@@ -25,7 +25,7 @@
     padding: 50px 20px;
 }
 
-h2, h3, h4 {
+.header_font-family {
     font-family: 'Roboto-Bold', sans-serif;
 }
 
@@ -33,7 +33,7 @@ h2 {
     font-size: 28px;
 }
 
-p {
+.p_font-family {
     font-family: 'OpenSans-Semibold', sans-serif;
     font-size: 16px;
 }
