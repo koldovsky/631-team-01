@@ -15,6 +15,7 @@
 .why_choose_us {
     display: block;
     background-image: url(../img/why_choose_us-background.png);
+    background-size: cover;
     min-height: 860px;
 }
 
@@ -22,6 +23,11 @@ span.title-dot {
     color: var(--brown-color);
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
+}
+
+img.snake-icon {
+    display: block;
+    margin: auto;
 }
 
 img.diamond-icon, img.question_answer-icon, img.target-icon {
@@ -41,6 +47,7 @@ div.w_c_u_header {
     font-size: 50px;
     color: var(--black-color);
     margin-bottom: 20px;
+    font-weight: 900;
 }
 
 .w_c_u_header p {
@@ -48,6 +55,7 @@ div.w_c_u_header {
     font-size: 20px;
     color: var(--black-color);
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .w_c_u_cards-container {
@@ -75,6 +83,7 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
     font-size: 30px;
     color: var(--black-color);
     margin: 0 auto 20px 35px;
+    font-weight: 700;
 }
 
 .experience p, .support p, .technologies p {
@@ -82,21 +91,23 @@ img.diamond-icon, img.question_answer-icon, img.target-icon {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--light-color);
-    line-height: 28px; 
+    line-height: 28px;
+    font-weight: 400; 
 }
 
 .experience ul, .support ul, .technologies ul {
-    /* margin: 2px auto auto 25px; */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--light-color);
-    line-height: 35px;
+    line-height: 27.68px;
     list-style-type: none;
+    font-weight: 400;
 }
 
 span.list-dot {
     color: var(--brown-color);
-    font-size: 16px;
+    font-size: 50px;
+    margin-right: 5px;
 }
 
 div.support {
@@ -109,6 +120,7 @@ div.support {
 .services {
     display: block;
     background-image: url(../img/services-background.png);
+    background-size: cover;
     min-height: 1185px;
 }
 
@@ -124,6 +136,7 @@ div.services-header h2 {
     font-size: 50px;
     color: var(--white-color);
     margin-bottom: 15px;
+    font-weight: 900;
 }
 
 div.services-header p {
@@ -131,6 +144,7 @@ div.services-header p {
     font-size: 20px;
     color: var(--white-color);
     margin-top: 20px;
+    font-weight: 500;
 }
 
 div.card-top {
@@ -152,13 +166,15 @@ div.card-bottom {
 img.services_top-image, img.services_bottom-image {
     width: 585px;
     height: 320px;
+    
 } 
 
 div.card-top h3, div.card-bottom h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: var(--white-color);
-    margin: 45px auto 20px 80px
+    margin: 45px auto 20px 80px;
+    font-weight: 700;  
 }
 
 div.card-top p, div.card-bottom p {
@@ -167,6 +183,7 @@ div.card-top p, div.card-bottom p {
     line-height: 27.68px;
     color: var(--white-color);
     margin: 0 90px auto 80px;
+    font-weight: 400;
 }
 
 .services form {
@@ -182,7 +199,7 @@ div.card-top p, div.card-bottom p {
     font-size: 15px;
     text-decoration: none;
     color: var(--white-color);
-
+    font-weight: 500;
 }
 
 .services a:hover {
@@ -195,6 +212,7 @@ div.card-top p, div.card-bottom p {
 
 .subscribe_now {
     background-image: url(../img/subscribe_now-background.png);
+    background-size: cover;
     min-height: 605px;
     display: flex;
     flex-direction: column;
@@ -210,16 +228,20 @@ div.subscribe_now-container {
 }
 
 div.subscribe_now-container h2 {
+    color: var(--black-color);
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     margin-bottom: 10px;
+    font-weight: 900;
 }
 
 div.subscribe_now-container p {
+    color: var(--black-color);
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     margin: 25px 40px 30px 40px;
+    font-weight: 600;
 }
 
 div.input-group.flex-nowrap {
@@ -238,9 +260,11 @@ button.submit-button {
     min-height: 50px;
     background-color: rgb(52, 52, 54);
     color: var(--white-color);
+    font-weight: 500;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     border-radius: 3%;
+
     
 }
 
