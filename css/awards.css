@@ -15,30 +15,31 @@
     margin: auto;
 }
 
-    @media (min-width: 500px) {
+@media (min-width: 500px) {
     .awards .cards-container  {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         padding: 15px 50px 50px 15px;
-        }
     }
+}
     
-    @media (min-width: 801px) {
-        .awards .cards-container  {
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 10px;
-            padding: 15px 50px 50px 15px;
-        }
+@media (min-width: 801px) {
+    .awards .cards-container  {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 15px 50px 50px 15px;
     }
+}
     
     @media (min-width: 980px) {
         .awards .cards-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
-        padding: 50px 100px 50px 100px;
-        }
+        padding: 20px 100px 50px 100px;
     }
+}
+
 
     .awards {
         background-image: url(../img/awards.png);
@@ -50,7 +51,7 @@
 
     .awards h2 {
         font-size:50px ;
-        font-family: 'Roboto' ;
+        font-family: 'Roboto', sans-serif !important;
         color: var(--awards-color);
         text-align: center;
         margin-right: 50px;
@@ -60,7 +61,7 @@
     .awards svg {
         display: block;
         margin: auto;
-        }
+    }
     
     .awards p {
         font-size: 18px ;
@@ -68,7 +69,7 @@
         font-weight: 600;
         color: var(--awards-color);
         text-align: center;
-        padding: 20px 40px;
+        padding: 25px 20px;
     }
 
     .awards .card p {
@@ -111,7 +112,7 @@
     
     .cases h2 {
         font-size:50px ;
-        font-family: 'Roboto' ;
+        font-family: 'Roboto', sans-serif ;
         text-align: center;
         color: rgb(255, 255, 255);
         padding: 20px;
@@ -288,14 +289,156 @@
                 background-color: transparent;
               }
 
-        .button-cases:hover {
+    .button-cases:hover {
                 color: white;
                 background-color: rgb(116, 116, 117);
                 cursor: pointer;
               }
 
-        .button-cases p {
+    .button-cases p {
                 font-size: 14px ;
                 font-family: 'Roboto', sans-serif !important;
                 font-weight: 500;
               }
+                
+
+
+    .register form {
+                  --success-color: #2ecc71;
+                  --error-color: #e74c3c;
+                }
+                
+    .register {
+                    background-image: url(../img/clients.jpg);
+                    background-size: cover;
+                    background-position: right;
+                    display: block;
+                    border-block-start: 5px solid white;
+                    border-block-end: 5px solid white;
+        
+                }
+                
+    .register .form body {
+                  background-color: white;
+                  font-family: 'Open Sans', sans-serif;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  min-height: 100vh;
+                  margin: auto;
+                }
+                
+    @media (min-width: 980px) {
+        .register .formcontainer {
+                  margin: auto;
+                  border-radius: 5px;
+                  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                }
+                }
+                
+                
+    @media (min-width: 801px) {
+        .register .formcontainer {
+                  margin: auto;
+                  border-radius: 5px;
+                 backdrop-filter: 0 2px 10px rgba(0, 0, 0, 0.3);
+                }
+                }
+                
+    @media (min-width: 500px) {
+        .register .formcontainer {
+                  margin: auto;
+                  border-radius: 5px;
+                  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                }
+                }
+                
+                
+        .register .form h2 {
+                  font-size: 45px;
+                font-family: 'Roboto';
+                 color: white;
+                  text-align: center;
+                  margin-top: 4px;
+                  margin-bottom: 20px;
+                }
+                
+        .register .form {
+                  padding: 50px 0px 50px 0px;
+                }
+                
+                
+        .register .formcontrol {
+                  margin-bottom: 10px;
+                  padding-bottom: 20px;
+                 position: relative;
+                
+                }
+                
+        .register .formcontrol label {
+                   font-size: 16px;
+                  color: white;
+                 display: block;
+                  margin: auto;
+                  margin-bottom: 2px;
+                  text-align: center;
+                }
+                
+                
+        .register .formcontrol input {
+                  border: 4px solid #f0f0f0;
+                  border-radius: 4px;
+                  display: block;
+                  margin: auto;
+                  padding: 10px 200px 10px 5px;
+                  font-size: 14px;
+                }
+                
+        .register .formcontrol input:focus {
+                  outline: 0;
+                  border-color: #777;
+                }
+                
+        .register .formcontrol.success input {
+                  border-color: var(--success-color);
+                }
+                
+        .register .formcontrol.error input {
+                  border-color: var(--error-color);
+                  
+                }
+                
+        .register .formcontrol small {
+                  color: var(--error-color);
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  visibility: hidden;
+                  padding: 5px 300px 5px 300px;
+                }
+                
+        .register .formcontrol.error small {
+                  visibility: visible;
+                }
+                
+        .register .form button {
+                  display: block;
+                  margin:auto;
+                  cursor: pointer;
+                  background-color: rgb(140, 117, 104);
+                  border: 2px solid white;
+                  border-radius: 4px;
+                  color: #fff;
+                  font-size: 16px;
+                  text-align: center;
+                  margin-top: 20px;
+                  padding: 10px 40px 10px 40px;
+                }
+                
+                
+        .register .form button:hover {
+                color: white;
+                background-color: rgb(204, 194, 194);
+                cursor: pointer;
+            }
+                
