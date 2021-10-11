@@ -37,6 +37,7 @@
 
 .header_font-family {
     font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bolder;
 }
 
 h2 {
