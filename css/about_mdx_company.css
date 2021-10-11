@@ -231,7 +231,7 @@
 
 @media screen and (device-width: 1024px) { 
 	.about_mdx_section { 
-		max-width: 100%; 
+		width: 100%; 
 		padding: 0;
 		margin: auto;
     } 
@@ -250,13 +250,13 @@
  
 @media screen and (device-width: 1280px) { 
 	.about_mdx_section { 
-		width: 1100px;	
+		width: 100%;	
 		margin:auto; 
 		padding: 0; 
 	} 
 
 	.about_mdx_container{ 
-		width: 1500px;
+		width: 1100px;
 		min-height: 100vh; 
 		display: block; 
 		margin:auto; 
@@ -269,13 +269,13 @@
  
  @media screen and (min-device-width: 1600px) { 
 	.about_mdx_section { 
-		max-width: 100%; 
+		width: 100%; 
 	 	margin:auto; 
 		padding: 0; 
     } 
 
 	.about_mdx_container{ 
-		width: 80%; 
+		width: 1500px;
 		min-height: 100vh; 
 		display: block; 
 		margin:auto; 
