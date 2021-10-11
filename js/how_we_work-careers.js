@@ -44,7 +44,7 @@
         for (const event of events) {
             eventsContainer.innerHTML += 
                 `<article class="event">
-                    <img class="img_for_events" src="${event.img}" alt="${event.name}">
+                    <div class="img_event_block" style="background-image: url(${event.img})"></div>
                     <div class="text_inside_events">
                         <p class="header-text-color events_data">${event.data}</p>
                         <p class="header-text-color events_time">${event.time}</p>

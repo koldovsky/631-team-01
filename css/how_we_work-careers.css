@@ -5,7 +5,7 @@
     --svg-steps-color: #f1f3f3;
 }
 
-.header-text-color{
+.header-text-color {
     color: var(--header-text-color);
 }
 
@@ -14,18 +14,23 @@
     background-size: cover;
     background-position: 80% 50%;
     min-height: 100vh;
-    max-width: 100%;
-    padding: 30px 0px 0px 30px;
+    padding: 0px 30px 60px 0px;
+}
+
+.container_how_we_work {
+    padding: 30px 0px 0px 40px;
     min-width: 320px;
 }
 
 .how_we_work {
+    display: block;
+    margin: auto;
     background-color: #ffffff;
     max-width: 90%;
     padding: 50px 20px;
 }
 
-.header_font-family {
+h2, h3, h4 {
     font-family: 'Roboto-Bold', sans-serif;
 }
 
@@ -79,21 +84,27 @@ a:hover {
     width: 50px;
 }
 
-.img_for_events {
-    width: 488px;
+.img_event_block {
+    background-size: cover;
+    background-position: 58% 50%;
+    height: 270px;
 }
-
-/* @media (min-width: 992px) {
-    .img_for_events {
-        
-    }
-} */
 
 .event {
     background-color: #343436;
     display: block;
     margin: auto;
     margin: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .text_inside_events {
@@ -128,12 +139,6 @@ div .events_blocks > article img {
     display: none;
     max-width: 90%;
 }
-
-/* @media(min-width: 768px) {
-    .empty_block {
-        display: block;
-    }
-} */
 
 @media(min-width: 768px) {
     .general_background {
@@ -230,4 +235,9 @@ div .events_blocks > article img {
 #conteiner_for_button_our_team {
     margin-top: 40px;
     padding-bottom: 40px;
+}
+
+.max_scale {
+    max-width: 980px;
+    margin: auto;
 }
