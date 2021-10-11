@@ -154,7 +154,6 @@
 		min-height: 100vh;
 		display: block;
 		margin:auto;
-		padding-top:50px;
    }
 
 	.about_mdx_content-section {
@@ -237,7 +236,7 @@
 		margin: auto;
     } 
 	.about_mdx_container{ 
-		width: 80%; 
+		width: 980px;
 		min-height: 100vh; 
 		display: block; 
 		margin:auto; 
@@ -251,13 +250,13 @@
  
 @media screen and (device-width: 1280px) { 
 	.about_mdx_section { 
-		max-width: 100%; 	
+		width: 1100px;	
 		margin:auto; 
 		padding: 0; 
 	} 
 
 	.about_mdx_container{ 
-		width: 80%; 
+		width: 1500px;
 		min-height: 100vh; 
 		display: block; 
 		margin:auto; 
