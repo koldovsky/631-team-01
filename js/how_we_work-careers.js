@@ -49,7 +49,7 @@
                         <p class="header-text-color events_data">${event.data}</p>
                         <p class="header-text-color events_time">${event.time}</p>
                         <div class="space_before_events_header">
-                            <h3 class="header-text-color events_description">${event.description}</h3>
+                            <h3 class="header_font-family header-text-color events_description">${event.description}</h3>
                         </div>
                         <div class="space_before_events_a">
                             <a class="a_events_blocks" href="#">${event.link}</a>
