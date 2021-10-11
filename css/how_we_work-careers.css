@@ -14,7 +14,7 @@
     background-size: cover;
     background-position: 70% 50%;
     min-height: 30vh;
-    padding: 0px 30px 60px 0px;
+    padding: 0px 20px 60px 20px;
     margin: auto;
 }
 
@@ -27,7 +27,6 @@
     display: block;
     margin: auto;
     background-color: #ffffff;
-    max-width: 90%;
     padding: 50px 20px;
 }
 
@@ -36,39 +35,35 @@
     font-weight: bolder;
 }
 
-#h2-size {
-    font-size: 28px;
+.p_font-family {
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 16px;
 }
 
-#h3-size {
-    font-size: 20px;
+#h2 {
+    font-weight: 900;
 }
 
-#h4-size {
-    font-size: 17px;
+#h3 {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 766px) {
+    .text-sizing {
+    font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 767px) {
     .text-sizing {
-    font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .text-sizing {
-    font-size: 2.5rem;
+    font-size: 2rem;
     }
 }
 
 @media (min-width: 991px) {
     .text-sizing {
-    font-size: 2.5rem;
+    font-size: 3rem;
     }
-}
-
-.p_font-family {
-    font-family: 'OpenSans-Semibold', sans-serif;
-    font-size: 16px;
 }
 
 .time {
@@ -91,13 +86,20 @@ a:hover {
 }
 
 .space_before_events_a {
-    margin-top: 60px;
+    padding-top: 70px;
 }
 
 .svg_for_how_we_work {
-    width: 26px;
+    width: 40px;
     display: block;
     margin: auto;
+}
+
+.p_steps {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #7D7D7D;
 }
 
 .svg_for_duty {
@@ -107,7 +109,7 @@ a:hover {
 .img_event_block {
     background-size: cover;
     background-position: 58% 50%;
-    height: 270px;
+    height: 310px;
 }
 
 .event {
@@ -182,8 +184,8 @@ div .events_blocks > article img {
 .steps_svg {
     background-color: var(--svg-steps-color);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .step {
@@ -206,6 +208,8 @@ div .events_blocks > article img {
 
 .snake_how_we_work-careers {
     padding: 0px 0px;
+    margin: 8px 0px 8px 0px;
+    width: 65px;
 }
 
 .careers_center {
@@ -227,13 +231,12 @@ div .events_blocks > article img {
 }
 
 .events {
-    padding: 0px 24px 0px 24px;
+    padding: 0px 10px 0px 10px;
     background-image: url(../img/background_events.png);
     background-size: cover;
     background-position: 70% 50%;
     min-height: 30vh;
     margin: auto;
-    /* background-color: #f7f5f5; */
 }
 
 .text_block_events {
@@ -263,6 +266,76 @@ div .events_blocks > article img {
 }
 
 .max_scale {
-    max-width: 980px;
+    max-width: 1080px;
     margin: auto;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel .slide-container img {
+    border: 2px solid #8c7568;
+    border-radius: 50%;
+}
+  
+.carousel .slide-container {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.carousel .slide-container img {
+    width: 25%;
+}
+
+.team_work_header {
+    padding: 80px 20px 0px 20px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#team_work {
+    background-image: url(../img/background_team_work.png);
+    background-size: cover;
+    background-position: 70% 50%;
+    min-height: 30vh;
+    margin: auto;
+}
+
+.carousel-buttons {
+    padding: 50px 6px 20px 6px;
+}
+
+.carousel-buttons img {
+    width: 10px;
+}
+
+.carousel-buttons button {
+    margin: 0px 15px 0px 15px;
+    color: #8c7568;
+    background-color: rgb(0, 0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 15px;
+}
+
+button:focus {
+    border-color: none; 
+}
+
+.dot {
+    color: #8c7568;
+}
+
+.p_team_work {
+    text-align: center;
+    padding: 0px 30px 60px 30px;
 }
