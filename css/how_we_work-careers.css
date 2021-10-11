@@ -1,5 +1,10 @@
 @import url(fonts.css);
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --header-text-color: #4a4a4d;
     --svg-steps-color: #f1f3f3;
