@@ -1,10 +1,5 @@
 @import url(fonts.css);
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --header-text-color: #4a4a4d;
     --svg-steps-color: #f1f3f3;
@@ -17,9 +12,10 @@
 .general_background {
     background-image: url(../img/background_how_we_work.png);
     background-size: cover;
-    background-position: 80% 50%;
-    min-height: 100vh;
+    background-position: 70% 50%;
+    min-height: 30vh;
     padding: 0px 30px 60px 0px;
+    margin: auto;
 }
 
 .container_how_we_work {
@@ -40,21 +36,39 @@
     font-weight: bolder;
 }
 
-h2 {
+#h2-size {
     font-size: 28px;
+}
+
+#h3-size {
+    font-size: 20px;
+}
+
+#h4-size {
+    font-size: 17px;
+}
+
+@media (min-width: 767px) {
+    .text-sizing {
+    font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-sizing {
+    font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 991px) {
+    .text-sizing {
+    font-size: 2.5rem;
+    }
 }
 
 .p_font-family {
     font-family: 'OpenSans-Semibold', sans-serif;
     font-size: 16px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 17px;
 }
 
 .time {
@@ -214,7 +228,12 @@ div .events_blocks > article img {
 
 .events {
     padding: 0px 24px 0px 24px;
-    background-color: #f7f5f5;
+    background-image: url(../img/background_events.png);
+    background-size: cover;
+    background-position: 70% 50%;
+    min-height: 30vh;
+    margin: auto;
+    /* background-color: #f7f5f5; */
 }
 
 .text_block_events {
