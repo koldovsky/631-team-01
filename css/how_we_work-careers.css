@@ -204,6 +204,7 @@ div .events_blocks > article img {
 .list_of_steps {
     list-style: none;
     padding-top: 5px;
+    padding-left: 0rem!important;
 }
 
 .snake_how_we_work-careers {
