@@ -14,7 +14,9 @@
         left: 0;
         top: 0;
         
-        
+    }
+    .contacts-page {
+        background-color: var(--accent-color);
     }
     section div iframe {
         width:  100%;
