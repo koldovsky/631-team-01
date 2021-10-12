@@ -49,22 +49,32 @@
 }
 
 @media (max-width: 766px) {
-    .text-sizing {
-    font-size: 1.5rem;
+    .text-increasing {
+        font-size: 1.5rem;
+    }
+    .text-reducing {
+        font-size: 1.2rem;
     }
 }
 
 @media (min-width: 767px) {
-    .text-sizing {
-    font-size: 2rem;
+    .text-increasing {
+        font-size: 2rem;
+    }
+    .text-reducing {
+        font-size: 1.5rem;
     }
 }
 
 @media (min-width: 991px) {
-    .text-sizing {
-    font-size: 3rem;
+    .text-increasing {
+        font-size: 3rem;
+    }
+    .text-reducing {
+        font-size: 2rem;
     }
 }
+
 
 .time {
     font-size: 11px;
