@@ -13,10 +13,14 @@
         display: flex;
         left: 0;
         top: 0;
+        
+    }
+    .contacts-page {
+        background-color: var(--accent-color);
     }
     section div iframe {
-        width: 1790px;
-        height: 790px;
+        width:  100%;
+        max-height: 300px !important;
     }
     section div.contacts-form {
         width: 1170px;

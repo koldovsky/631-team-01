@@ -51,7 +51,9 @@ div.contacts-content {
   height: 375px;
   background-color: var(--main--map-color);
 }
-
+.question-answer-logo {
+  margin-left: 40px;
+}
 div h3.contacts-title {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -91,28 +93,33 @@ div .office-tel a {
 }
 div .office-email {
   font-family: "Roboto", sans-serif;
-  margin-top: 10px;
+ margin-bottom: 5px; 
 }
 div .office-email a {
   text-decoration: none;
   color: var(--hover-map-color);
-  margin-bottom: 10px;
+  
+
 }
-div .button-content {
+.meeting-button {
+
+}
+/* div .button-content {
   margin-top: 30px;
   height: 49px;
   align-items: center;
-}
-div .button-content a {
   text-decoration: none;
+} */
+a.button-content  {
+  text-decoration: none !important;
   color: white;
   padding: 15px 26px;
   background-position: center;
-  background-color: var(--hover-map-color);
-}
-div .button-content a:hover {
   background-color: var(--accent-map-color);
+}
+a.button-content :hover {
   transition-duration: 1s;
+  color: var(--main--map-color);
 }
 
 /* @media (min-width: 480px) {

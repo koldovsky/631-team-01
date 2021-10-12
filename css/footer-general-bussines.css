@@ -10,12 +10,12 @@
     }
 
     footer {
-        
         left: 0;
         bottom: 0;
         width: 100%;
         font-family: 'Open Sans', sans-serif;
-        max-height: 1000px;
+        max-height: 1200px;
+        padding: 50px 0 20px 0;
         background-color:var(--footer-color) !important;
         color: var(--text-color) !important;
     }
@@ -50,10 +50,11 @@
    
 
     .footer-container {
-        margin: 0px 55px 0px 300px ;
+        margin: 0px 55px 0px 400px ;
         justify-content: center;
         flex-direction: row;
         gap: 30px;
+        padding-top: 10px;
     }
 
     .main-footer-company {
@@ -149,7 +150,8 @@
     .copyrights-footer {
         justify-content: flex-end;
         margin-right: 190px;
-        margin-left: 250px;
+        margin-left: 350px;
+        margin-top: 20px;
     }
     
     .footer-bottom-content {
@@ -159,7 +161,9 @@
         justify-content: space-between;
         flex-direction: row;
     }
-    
+        .footer-line {
+            margin: 5px 0 10px 0;
+        }
     @media (min-width:750px) {
         .footer-bottom-content {
             display: grid !important;
@@ -168,5 +172,5 @@
         }
     }
     .footer-bottom-end {
-        padding-right: 40px;
+        padding-right: 30px;
     }
