@@ -31,7 +31,7 @@
 }
 
 .header_font-family {
-    font-family: 'Roboto-Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
 
@@ -332,6 +332,7 @@ button:focus {
 }
 
 .dot {
+    font-family: 'Roboto', sans-serif;
     color: #8c7568;
 }
 
