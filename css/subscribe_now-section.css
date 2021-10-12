@@ -1,0 +1,89 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-color: rgb(74, 74, 77);
+    --white-color: rgb(255, 255, 255);
+    --light-color: rgb(125, 125, 125);
+    --brown-color: #8c7568;
+}
+
+.subscribe_now {
+    background-image: url(../img/subscribe_now-background.png);
+    background-size: cover;
+}
+
+.subscribe_now-container {
+    min-height: 605px;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.subscribe_now-inner {
+    max-width: 570px;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+    div.subscribe_now-inner {
+        margin: 0 20px 0 20px;
+    }
+}
+
+div.subscribe_now-container h2 {
+    color: var(--dark-color);
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+div.subscribe_now-container p {
+    color: var(--dark-color);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 40px 30px 40px;
+    font-weight: 600;
+}
+
+form.enter-email {
+    width: 90%;
+    margin: auto;
+} 
+
+div.input-group.flex-nowrap {
+    width: 100%;
+    min-height: 50px;
+}
+
+input.form-control {
+    background-color: rgba(52, 52, 54, 0.12);
+}
+
+button.submit-button {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(52, 52, 54);
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3%;
+}
+
+.submit-button:hover {
+    background-color: var(--brown-color);
+    opacity: 0.9; 
+    transition: 0.4s 0.1s ease;
+}
