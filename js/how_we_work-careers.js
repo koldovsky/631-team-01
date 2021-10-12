@@ -80,14 +80,14 @@
     let currentSlide = 0;
   
     function showCurrentSlide() {
-      const slideContainer = document.querySelector(".carousel .slide-container");
+      const slideBasket = document.querySelector(".carousel-team-work .slide-basket");
       let html = '';
       html = slides[currentSlide];
       const nextSlide = currentSlide + 1 < slides.length ? currentSlide + 1 : 0;
       html += slides[nextSlide];
       const next2Slide = nextSlide + 1 < slides.length ? nextSlide + 1 : 0;
       html += slides[next2Slide];
-      slideContainer.innerHTML = html;
+      slideBasket.innerHTML = html;
     }
   
     function nextSlide() {
@@ -104,9 +104,9 @@
   
     showCurrentSlide();
 
-    const btnPrev = document.querySelector(".carousel .slide-prev");
+    const btnPrev = document.querySelector(".carousel-team-work .slide-prev");
     btnPrev.addEventListener("click", prevSlide);
   
-    const btnNext = document.querySelector(".carousel .slide-next");
+    const btnNext = document.querySelector(".carousel-team-work .slide-next");
     btnNext.addEventListener("click", nextSlide);
   })();

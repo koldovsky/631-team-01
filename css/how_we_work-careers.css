@@ -270,21 +270,21 @@ div .events_blocks > article img {
     margin: auto;
 }
 
-.carousel {
+.carousel-team-work {
     margin-top: 50px;
 }
 
-.carousel .slide-container img {
+.carousel-team-work .slide-basket img {
     border: 2px solid #8c7568;
     border-radius: 50%;
 }
   
-.carousel .slide-container {
+.carousel-team-work .slide-basket {
     display: flex;
     justify-content: space-around;
 }
   
-.carousel .slide-container img {
+.carousel-team-work .slide-basket img {
     width: 25%;
 }
 
