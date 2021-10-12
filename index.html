@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="css/awards.css">
   <link rel="stylesheet" href="css/faq-section.css">
   <link rel="stylesheet" href="css/footer-general-bussines.css">
-  <link rel="stylesheet" href="css/why_choose_us.css">
+  <link rel="stylesheet" href="css/why_choose_us-section.css">
+  <link rel="stylesheet" href="css/services-section.css">
+  <link rel="stylesheet" href="css/subscribe_now-section.css" >
   <link href="img/tab-icon.png" rel="icon">
   <link href="css/header.css" rel="stylesheet">
   <link href="css/your_business_is_our_concern.css" rel="stylesheet">
@@ -108,7 +110,7 @@
 
   <!--WHY CHOOSE US-->
   <section class="why_choose_us">
-    <div>
+    <div class="w_c_u-container">
       <div class="w_c_u_header">
         <h2>Why Choose Us<span class="title-dot">.</span></h2>
         <div>
@@ -160,7 +162,7 @@
 
   <!--SERVICES-->
   <section class="services" id="services">
-    <div>
+    <div class="services-container">
       <div class="services-header" id="scroll_to_services">
         <h2>Services<span class="title-dot">.</span></h2>
         <img src="img/separator.svg" class="snake-icon" alt="Snake icon">
@@ -191,28 +193,29 @@
           </div>
         </div>
       </div>
-      <div>
-        <form>
-          <a href="#services">Schedule a Meeting</a>
-        </form>
-      </div>
+
+      <form class="schedule-meeting">
+        <a href="#services">Schedule a Meeting</a>
+      </form>
     </div>
   </section>
 
   <!-- SUBSCRIBE NOW -->
   <section class="subscribe_now">
     <div class="subscribe_now-container">
-      <h2>Subscribe Now<span class="title-dot">.</span></h2>
-      <img src="img/separator.svg" class="snake-icon" alt="Snake icon">
-      <p>Leave your E-mail and get useful advices on increasing your profits every week.</p>
-      <form action="#">
-        <div class="input-group flex-nowrap">
-          <span class="input-group-text" id="addon-wrapping">@</span>
-          <input type="text" class="form-control" placeholder="Your Email*" aria-label="Your Email*"
-            aria-describedby="addon-wrapping">
-        </div>
-        <button class="submit-button" type="submit">Submit</button>
-      </form>
+      <div class="subscribe_now-inner">
+        <h2>Subscribe Now<span class="title-dot">.</span></h2>
+        <img src="img/separator.svg" class="snake-icon" alt="Snake icon">
+        <p>Leave your E-mail and get useful advices on increasing your profits every week.</p>
+        <form class="enter-email" action="#">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">@</span>
+            <input type="text" class="form-control" placeholder="Your Email*" aria-label="Your Email*"
+              aria-describedby="addon-wrapping">
+          </div>
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </section>
 
